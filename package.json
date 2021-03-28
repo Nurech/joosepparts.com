@@ -1,0 +1,24 @@
+{
+  "name": "joosepparts.com",
+  "version": "1.0.0",
+  "description": "my site",
+  "main": "vue.config.js",
+  "dependencies": {
+    "firebase": "^8.3.1",
+    "vue": "^2.6.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nurech/joosepparts.com.git"
+  },
+  "author": "Joosep Parts",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nurech/joosepparts.com/issues"
+  },
+  "homepage": "https://github.com/Nurech/joosepparts.com#readme"
+}
