@@ -1,0 +1,159 @@
+[debug] [2021-03-29T12:11:37.699Z] ----------------------------------------------------------------------
+[debug] [2021-03-29T12:11:37.701Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Lenovo\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-03-29T12:11:37.701Z] CLI Version:   9.8.0
+[debug] [2021-03-29T12:11:37.701Z] Platform:      win32
+[debug] [2021-03-29T12:11:37.701Z] Node Version:  v14.16.0
+[debug] [2021-03-29T12:11:37.702Z] Time:          Mon Mar 29 2021 15:11:37 GMT+0300 (Eastern European Summer Time)
+[debug] [2021-03-29T12:11:37.703Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-03-29T12:11:37.711Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-03-29T12:11:37.711Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Lenovo
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using website-joosep-parts. 
+[debug] [2021-03-29T12:11:43.179Z] > refreshing access token with scopes: []
+[debug] [2021-03-29T12:11:43.180Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-03-29T12:11:43.304Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Mon, 29 Mar 2021 12:11:43 GMT","pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-03-29T12:11:43.317Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/website-joosep-parts [none]
+[debug] [2021-03-29T12:11:43.575Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/website-joosep-parts 200
+[debug] [2021-03-29T12:11:43.575Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/website-joosep-parts {"projectId":"website-joosep-parts","projectNumber":"289970651872","displayName":"website joosep parts","name":"projects/website-joosep-parts","resources":{"hostingSite":"website-joosep-parts","realtimeDatabaseInstance":"website-joosep-parts-default-rtdb","storageBucket":"website-joosep-parts.appspot.com","locationId":"europe-west"},"state":"ACTIVE"}
+[info] 
+=== Database Setup
+[info] i  database: ensuring required API firebasedatabase.googleapis.com is enabled... 
+[debug] [2021-03-29T12:11:43.578Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-03-29T12:11:43.578Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-03-29T12:11:43.669Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Mon, 29 Mar 2021 12:11:43 GMT","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-03-29T12:11:43.675Z] >>> HTTP REQUEST GET https://serviceusage.googleapis.com/v1/projects/website-joosep-parts/services/firebasedatabase.googleapis.com  
+ 
+[debug] [2021-03-29T12:11:44.717Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 29 Mar 2021 12:11:44 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] +  database: required API firebasedatabase.googleapis.com is enabled 
+[info] 
+[debug] [2021-03-29T12:11:44.719Z] > refreshing access token with scopes: []
+[debug] [2021-03-29T12:11:44.720Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-03-29T12:11:44.833Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Mon, 29 Mar 2021 12:11:44 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-03-29T12:11:44.847Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/website-joosep-parts [none]
+[debug] [2021-03-29T12:11:45.056Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/website-joosep-parts 200
+[debug] [2021-03-29T12:11:45.057Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/website-joosep-parts {"projectId":"website-joosep-parts","projectNumber":"289970651872","displayName":"website joosep parts","name":"projects/website-joosep-parts","resources":{"hostingSite":"website-joosep-parts","realtimeDatabaseInstance":"website-joosep-parts-default-rtdb","storageBucket":"website-joosep-parts.appspot.com","locationId":"europe-west"},"state":"ACTIVE"}
+[debug] [2021-03-29T12:11:45.058Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-03-29T12:11:45.058Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-03-29T12:11:45.156Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Mon, 29 Mar 2021 12:11:45 GMT","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-03-29T12:11:45.168Z] >>> HTTP REQUEST GET https://firebasedatabase.googleapis.com/v1beta/projects/website-joosep-parts/locations/-/instances/website-joosep-parts-default-rtdb  
+ 
+[debug] [2021-03-29T12:11:45.538Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 29 Mar 2021 12:11:45 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] Firebase Realtime Database Security Rules allow you to define how your data should be
+[info] structured and when your data can be read from and written to.
+[info] 
+[debug] [2021-03-29T12:11:47.814Z] >>> HTTP REQUEST GET https://website-joosep-parts-default-rtdb.europe-west1.firebasedatabase.app/.settings/rules.json  
+ 
+[debug] [2021-03-29T12:11:48.071Z] <<< HTTP RESPONSE 200 {"server":"nginx","date":"Mon, 29 Mar 2021 12:11:47 GMT","content-type":"application/json; charset=utf-8","content-length":"121","connection":"keep-alive","access-control-allow-origin":"*","cache-control":"no-cache","strict-transport-security":"max-age=31556926; includeSubDomains; preload"}
+[info] +  Database Rules for website-joosep-parts-default-rtdb have been written to database.rules.json. 
+[info] Future modifications to database.rules.json will update Realtime Database Security Rules when you run
+[info] firebase deploy.
+[info] 
+=== Firestore Setup
+[debug] [2021-03-29T12:11:48.080Z] >>> HTTP REQUEST GET https://serviceusage.googleapis.com/v1/projects/website-joosep-parts/services/firestore.googleapis.com  
+ 
+[debug] [2021-03-29T12:11:49.080Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 29 Mar 2021 12:11:48 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-03-29T12:11:49.082Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/website-joosep-parts  
+ 
+[debug] [2021-03-29T12:11:49.377Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 29 Mar 2021 12:11:49 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-03-29T12:11:49.379Z] database_type: CLOUD_FIRESTORE
+[debug] [2021-03-29T12:11:49.380Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-03-29T12:11:49.382Z] > authorizing via signed-in user
+[debug] [2021-03-29T12:11:49.383Z] [iam] checking project website-joosep-parts for permissions ["firebase.projects.get"]
+[debug] [2021-03-29T12:11:49.384Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/website-joosep-parts:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2021-03-29T12:11:50.183Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 29 Mar 2021 12:11:49 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=728","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] Firestore Security Rules allow you to define how and when to allow
+[info] requests. You can keep these rules in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[debug] [2021-03-29T12:11:51.166Z] >>> HTTP REQUEST GET https://firebaserules.googleapis.com/v1/projects/website-joosep-parts/releases?pageSize=10&pageToken=  
+ 
+[debug] [2021-03-29T12:11:52.045Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 29 Mar 2021 12:11:51 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-03-29T12:11:52.047Z] Found ruleset: projects/website-joosep-parts/rulesets/74debfda-18f0-4f0b-8ad2-108b09e2460d
+[debug] [2021-03-29T12:11:52.047Z] >>> HTTP REQUEST GET https://firebaserules.googleapis.com/v1/projects/website-joosep-parts/rulesets/74debfda-18f0-4f0b-8ad2-108b09e2460d  
+ 
+[debug] [2021-03-29T12:11:52.943Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 29 Mar 2021 12:11:52 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] Firestore indexes allow you to perform complex queries while
+[info] maintaining performance that scales with the size of the result
+[info] set. You can keep index definitions in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[debug] [2021-03-29T12:11:53.981Z] >>> HTTP REQUEST GET https://firestore.googleapis.com/v1/projects/website-joosep-parts/databases/(default)/collectionGroups/-/indexes  
+ 
+[debug] [2021-03-29T12:11:53.982Z] >>> HTTP REQUEST GET https://firestore.googleapis.com/v1/projects/website-joosep-parts/databases/(default)/collectionGroups/-/fields?filter=indexConfig.usesAncestorConfig=false  
+ 
+[debug] [2021-03-29T12:11:54.217Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 29 Mar 2021 12:11:54 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-03-29T12:11:54.232Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 29 Mar 2021 12:11:54 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2021-03-29T12:12:25.261Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2021-03-29T12:12:25.333Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2021-03-29T12:12:25.333Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"8.3.1","browserURL":"https://www.gstatic.com/firebasejs/8.3.1/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/8.3.1/firebase.tgz"},"live":{"version":"8.3","browserURL":"https://www.gstatic.com/firebasejs/live/8.3/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/8.3/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/8.3.1/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js","auth":"https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js","database":"https://www.gstatic.com/firebasejs/8.3.1/firebase-database.js","firestore":"https://www.gstatic.com/firebasejs/8.3.1/firebase-firestore.js","functions":"https://www.gstatic.com/firebasejs/8.3.1/firebase-functions.js","installations":"https://www.gstatic.com/firebasejs/8.3.1/firebase-installations.js","messaging":"https://www.gstatic.com/firebasejs/8.3.1/firebase-messaging.js","storage":"https://www.gstatic.com/firebasejs/8.3.1/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/8.3.1/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/8.3.1/firebase-remote-config.js","firestore.memory":"https://www.gstatic.com/firebasejs/8.3.1/firebase-firestore.memory.js"}}
+[debug] [2021-03-29T12:12:25.419Z] Error: EINVAL: invalid argument, mkdir 'C:\Users\Lenovo\C:\Users\Lenovo\IdeaProjects\joosepparts.com\vueapp\dist'
+    at Object.mkdirSync (fs.js:987:3)
+    at Object.mkdirsSync (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\mkdirs\mkdirs-sync.js:22:9)
+    at Object.createFileSync (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\ensure\file.js:31:11)
+    at Config.writeProjectFile (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:155:8)
+    at C:\Users\Lenovo\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:174:18
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2021-03-29T12:12:52.197Z] ----------------------------------------------------------------------
+[debug] [2021-03-29T12:12:52.199Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Lenovo\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-03-29T12:12:52.200Z] CLI Version:   9.8.0
+[debug] [2021-03-29T12:12:52.200Z] Platform:      win32
+[debug] [2021-03-29T12:12:52.200Z] Node Version:  v14.16.0
+[debug] [2021-03-29T12:12:52.202Z] Time:          Mon Mar 29 2021 15:12:52 GMT+0300 (Eastern European Summer Time)
+[debug] [2021-03-29T12:12:52.202Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-03-29T12:12:52.212Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-03-29T12:12:52.212Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Lenovo
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
