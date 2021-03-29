@@ -1,2 +1,0 @@
-# joosepparts.com
-my site
