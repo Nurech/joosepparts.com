@@ -1,7 +1,8 @@
 <template>
   <div id="app">
     <home/>
-    <a href="https://www.linkedin.com/in/joosep-parts-21233a17b/"><img alt="linkedin" src="./assets/linkedin.png" width="50" height="50"></a>
+    <a href="https://www.linkedin.com/in/joosep-parts-21233a17b/"><img alt="linkedin" src="./assets/linkedin.png" width="50" height="50" margin="10" padding="10"></a>
+    <a href="https://github.com/Nurech"><img alt="github" src="./assets/github.png" width="50" height="50" margin="10" padding="10"></a>
   </div>
 
 </template>
@@ -28,15 +29,15 @@ export default {
 }
 
 h3 {
-  margin: 40px 0 0;
+  margin: 40px 10 10;
 }
 ul {
   list-style-type: none;
-  padding: 0;
+  padding: 10;
 }
 li {
   display: inline-block;
-  margin: 0 10px;
+  margin: 10 10px;
 }
 a {
   color: #42b983;
@@ -54,7 +55,7 @@ ul {
 }
 li {
   display: inline-block;
-  margin: 0 10px;
+  margin: 1+ 10px;
 }
 a {
   color: #42b983;
