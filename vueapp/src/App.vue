@@ -3,6 +3,7 @@
     <home/>
     <a href="https://www.linkedin.com/in/joosep-parts-21233a17b/"><img alt="linkedin" src="./assets/linkedin.png" width="50" height="50" margin="10" padding="10"></a>
     <a href="https://github.com/Nurech"><img alt="github" src="./assets/github.png" width="50" height="50" margin="10" padding="10"></a>
+    <a href="https://www.codewars.com/users/Nurech"><img alt="codewars" src="./assets/codewars.jpg" width="50" height="50" margin="10" padding="10"></a>
   </div>
 
 </template>

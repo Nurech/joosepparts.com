@@ -5,8 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff1f9ed4-5127-4bb3-88de-9eff19ecd102" name="Default Changelist" comment="changed">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vueapp/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/vueapp/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueapp/dist/css/app.2c199457.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueapp/dist/img/codewars.3be8ef02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueapp/dist/js/app.9134afe4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueapp/dist/js/app.9134afe4.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueapp/src/assets/codewars.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueapp/dist/css/app.b71d3d6a.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueapp/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/vueapp/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueapp/dist/js/app.5d16d3b5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueapp/dist/js/app.5d16d3b5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueapp/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vueapp/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueapp/src/components/home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vueapp/src/components/home.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +110,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="16" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Udemy" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4586207" />
@@ -115,6 +125,7 @@
       <recent name="C:\Users\Lenovo\IdeaProjects\joosepparts.com\vueapp\src\components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\IdeaProjects\joosepparts.com\vueapp\src\assets" />
       <recent name="C:\Users\Lenovo\IdeaProjects\joosepparts.com\vueapp" />
       <recent name="C:\Users\Lenovo\IdeaProjects\joosepparts.com" />
       <recent name="C:\Users\Lenovo\IdeaProjects\joosepparts.com\vueapp\public" />
